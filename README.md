@@ -19,6 +19,6 @@ https://github.com/sicreative/WeatherStation_Android
 
 
 
-##This software under GPLv3 license.
+## This software under GPLv3 license.
 
 More detail: https://www.hackster.io/ssclee/web-air-purifier-with-pm2-5-and-iaq-sensor-b177eb
