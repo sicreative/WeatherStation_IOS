@@ -1,0 +1,13 @@
+/* 
+  Strings.strings
+  WeatherStation
+
+  Created by slee on 21/11/2019.
+  Copyright © 2019 sclee. All rights reserved.
+*/
+"temperature" = "溫度";
+"humidity" = "濕度";
+"pm1"="PM 1";
+"pm25"="PM 2.5";
+"pm10"="PM 10";
+"iaq"="室內空氣品質";

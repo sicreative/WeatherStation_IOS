@@ -8,14 +8,36 @@
 
 import SwiftUI
 
+
+
+
+
 struct ContentView: View {
+    
+    @EnvironmentObject var weatherData: WeatherData
+    @EnvironmentObject var weatherDataUpdated: WeatherDataUpdated
+    
+  
+    
     var body: some View {
-        Text("Hello, World!")
+        
+        
+         WeatherList().environmentObject(weatherData).environmentObject(weatherDataUpdated)
+        
+        
+
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        let httpjson = HttpJson()
+        httpjson.startLoad()
+   
+        
+        return ContentView().environmentObject(httpjson.weatherData)
     }
+      
 }

@@ -1,0 +1,39 @@
+/* 
+  Strings.strings
+  WeatherStation
+
+  Created by slee on 21/11/2019.
+  Copyright © 2019 sclee. All rights reserved.
+*/
+"temperature" = "Tempearture";
+"humidity" = "Humidity";
+"pm1"="PM 1";
+"pm25"="PM 2.5";
+"pm10"="PM 10";
+"pressure"="Pressure";
+"altitude"="Altitude";
+"iaq"="Indoor Air Quality";
+"eco2"="eCO2";
+"evoc"="eVOC";
+"accuracy"="Accuracy";
+"gas"="GAS";
+"fan"="FAN";
+"light"="Light";
+
+"temperature_icon" = "🌡";
+"humidity_icon" = "💦";
+"pm1_icon" = "🌫";
+"pm25_icon" = "🌫";
+"pm10_icon" = "🌫";
+"pressure_icon"="🌪";
+"altitude_icon"="🌍";
+"iaq_icon" = "🏠";
+"eco2_icon"="🌬";
+"evoc_icon"="🌬";
+"accuracy_icon"="⏱";
+"gas_icon"="🌬";
+"fan_icon"="💨";
+"light_icon"="💡";
+
+"navigation_list_title" = "Weather Station";
+"clear_button" = "Clear Logging";
